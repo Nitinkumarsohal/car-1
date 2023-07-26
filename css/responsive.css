@@ -1153,6 +1153,7 @@
 
     .Car-Deakler img {
         margin-top: 30px !important;
+        display: none;
     }
 
     .Expert-cars .right {
@@ -1170,12 +1171,10 @@
         line-height: 26px !important;
     }
 
-    .Expert-cars .Factors {
-        padding: 25px 0px 10px 0px !important;
-    }
+
 
     .Expert-cars .Factors {
-        padding: 120px 0px 15px 0px !important;
+        padding: 25px 0px 15px 0px !important;
         font-size: 20px !important;
         line-height: 27px !important;
     }
@@ -1257,5 +1256,17 @@
 
     #booking .form-select {
         font-size: 18px !important;
+    }
+
+    .Car-Dealer .row.edit-row {
+        flex-direction: column-reverse !important;
+    }
+
+    .Car-Dealer .img-left {
+        margin-top: 30px !important;
+    }
+
+    .Car-Dealer {
+        margin-top: -25px !important;
     }
 }
