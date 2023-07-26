@@ -193,14 +193,11 @@
 
                     <div class="col edit ">
                         <div class="style-box">
-                            <div class="icon">
-                                <img src="images/call.png" alt="">
+                            <div class="input-group" id="input-group">
+                                <span class="input-group-text"><img src="images/call.png" alt=""></span>
+                                <input type="text" placeholder="Enter mobile no." id="style-i">
                             </div>
-                            <div class="text">
-                                <a href="tel:123456789" style="text-decoration: none;">
-                                    <p>Phone Number</p>
-                                </a>
-                            </div>
+
                         </div>
                     </div>
 
@@ -673,7 +670,7 @@
             loop: true,
             margin: 10,
             autoplay: true,
-            autoplayTimeout: 1500,
+            autoplayTimeout: 10000,
             autoplayHoverPause: true,
             responsive: {
                 0: {
@@ -682,7 +679,7 @@
                 600: {
                     items: 2
                 },
-               
+
                 1000: {
                     items: 6
                 }
