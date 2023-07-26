@@ -239,14 +239,10 @@ header {
 
 #booking #input-group {
     padding-left: 7px;
-    border: 2px solid #eee;
     border-radius: 5px;
     transition: 0.2s;
 }
 
-#booking #input-group:hover {
-    border: 2px solid var(--bg-one-color);
-}
 
 
 
@@ -473,6 +469,7 @@ header {
     font-size: 16px !important;
     font-weight: 600;
 }
+
 #booking .input-group {
     flex-wrap: nowrap;
 }
