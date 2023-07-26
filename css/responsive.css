@@ -56,6 +56,11 @@
 }
 
 @media (max-width: 1199.98px) {
+    #booking .form-select {
+
+        padding: 0px !important;
+    }
+
     .owl-carousel .owl-item img {
         height: 100px !important;
         width: 180px !important;
@@ -234,6 +239,10 @@
 }
 
 @media (max-width: 991.98px) {
+    #booking .form-select {
+        padding-left: 21px !important;
+    }
+
     .Why-Sell h4 {
         font-size: 33px !important;
         padding-bottom: 14px !important;
@@ -748,7 +757,7 @@
 
     #booking .style-box {
         min-width: 250px !important;
-        margin: 14px 0px !important;
+        margin: 13px 0px !important;
         gap: 16px !important;
     }
 
@@ -794,7 +803,7 @@
     }
 
     #sell-vehicle .img-box {
-        min-height: 215px !important;
+        min-height: 250px !important;
     }
 
     .car-sell .img-box {
@@ -1240,5 +1249,13 @@
         height: 100px !important;
         width: 180px !important;
         object-fit: contain !important;
+    }
+
+    #booking .form-control {
+        font-size: 18px !important;
+    }
+
+    #booking .form-select {
+        font-size: 18px !important;
     }
 }
