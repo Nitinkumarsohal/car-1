@@ -212,23 +212,48 @@ header {
 /***** booking *****/
 #booking input[type='date']::-webkit-calendar-picker-indicator {
     background:
-        transparent;
-    bottom: 0;
-    color: transparent;
-    cursor: pointer;
-    height: auto;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: auto;
+        transparent !important;
+    bottom: 0 !important;
+    color: transparent !important;
+    cursor: pointer !important;
+    height: auto !important;
+    left: 0 !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: auto !important;
 
 }
 
-#booking .input-group-text {
+#booking:hover {
+    cursor: pointer;
+}
+
+#booking #style-i {
     border: none;
-    padding: 0px;
-    background-color: transparent;
+    outline: none;
+    margin-left: 2px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+#booking #input-group {
+    padding-left: 7px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#booking #input-group:hover {
+    border: 2px solid var(--bg-one-color);
+}
+
+
+
+#booking .input-group-text {
+    border: none !important;
+    padding: 0px !important;
+    background-color: transparent !important;
 }
 
 #booking .form-control {
@@ -245,23 +270,22 @@ header {
     color: #F24025 !important;
     font-size: 19px !important;
     font-weight: 600 !important;
-    padding-left: 20px;
-    background-image: url("");
+    background-image: url("") !important;
 }
 
 #booking .form-select:focus {
-    border: none;
-    outline: none;
-    box-shadow: none;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 #booking option {
-    color: black;
+    color: black !important;
 }
 
 #booking .form-control:focus {
-    outline: none;
-    box-shadow: none;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 #booking {
@@ -280,6 +304,10 @@ header {
     display: flex;
     gap: 18px;
     align-items: center !important;
+}
+
+#booking .style-box:hover {
+    cursor: pointer;
 }
 
 #booking .style-box .text p {
@@ -444,6 +472,9 @@ header {
     color: #161616;
     font-size: 16px !important;
     font-weight: 600;
+}
+#booking .input-group {
+    flex-wrap: nowrap;
 }
 
 .car-sell .right-text li {
