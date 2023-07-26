@@ -47,9 +47,21 @@
     .made-easy .style-box {
         margin: 23px 0px !important;
     }
+
+    .owl-carousel .owl-item img {
+        height: 100px !important;
+        width: 180px !important;
+        object-fit: contain !important;
+    }
 }
 
 @media (max-width: 1199.98px) {
+    .owl-carousel .owl-item img {
+        height: 100px !important;
+        width: 180px !important;
+        object-fit: contain !important;
+    }
+
     #Sell-your .text-box-left h3 {
         font-size: 55px !important;
         padding-top: 18px !important;
@@ -511,6 +523,12 @@
         padding: 20px 0px 20px 0px !important;
     }
 
+    .owl-carousel .owl-item img {
+        height: 100px !important;
+        width: 180px !important;
+        object-fit: contain !important;
+    }
+
 }
 
 @media (max-width: 767.98px) {
@@ -667,6 +685,12 @@
     #affordable-car .right-box {
         padding-left: 0px !important;
         padding-top: 15px !important;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 100px !important;
+        width: 180px !important;
+        object-fit: contain !important;
     }
 }
 
@@ -1200,5 +1224,21 @@
         font-weight: 700 !important;
         padding-bottom: 9px !important;
         line-height: 20px !important;
+    }
+
+    .market-value .box-style h5 {
+        font-size: 15px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .market-value .box-style {
+        gap: 0px !important;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 100px !important;
+        width: 180px !important;
+        object-fit: contain !important;
     }
 }
