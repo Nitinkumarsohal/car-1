@@ -239,7 +239,7 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.34);
     padding-left: 15px;
     margin: 8px 0px;
-
+    background: white !important;
 }
 
 #booking .mobile-form input {
