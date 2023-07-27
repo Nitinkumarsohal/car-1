@@ -28,7 +28,7 @@
     font-weight: 400 !important;
 }
 
-/* Roboto font-famaily close  */
+/* Roboto font-family close  */
 
 h1,
 h2,
@@ -254,11 +254,12 @@ header {
 
 #booking .form-control {
     border: none;
-    padding-left: 22px;
+    padding-left: 13px;
     color: #F24025 !important;
     font-size: 19px !important;
     font-weight: 600 !important;
     text-transform: capitalize;
+    padding-right: 0px;
 }
 
 #booking .form-select {
@@ -266,7 +267,6 @@ header {
     color: #F24025 !important;
     font-size: 19px !important;
     font-weight: 600 !important;
-    background-image: url("") !important;
 }
 
 #booking .form-select:focus {
