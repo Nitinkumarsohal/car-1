@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +21,7 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!-- ========== Start top-bar ========== -->
     <div class="top-bar">
@@ -109,8 +111,34 @@
                         <div class="style-box ">
                             <div class="input-group">
                                 <span class="input-group-text"><img src="images/Select year.png" alt=""></span>
-                                <input type="date" class="form-control" aria-label="Amount (to the nearest dollar)">
-                                <span class="input-group-text"><i class="fa-solid fa-chevron-down" style="font-size: 13px;"></i></span>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select year</option>
+                                    <option value="1">2000</option>
+                                    <option value="2">2003</option>
+                                    <option value="3">2004</option>
+                                    <option value="4">2005</option>
+                                    <option value="5">2006</option>
+                                    <option value="6">2007</option>
+                                    <option value="7">2008</option>
+                                    <option value="8">2009</option>
+                                    <option value="9">20010</option>
+                                    <option value="10">20012</option>
+                                    <option value="11">20013</option>
+                                    <option value="12">20014</option>
+                                    <option value="13">20015</option>
+                                    <option value="14">20016</option>
+                                    <option value="15">20017</option>
+                                    <option value="16">20018</option>
+                                    <option value="17">20019</option>
+                                    <option value="18">2020</option>
+                                    <option value="19">20021</option>
+                                    <option value="20">20022</option>
+                                    <option value="21">20023</option>
+                                    <option value="22">20024</option>
+                                    <option value="23">20025</option>
+                                    <option value="24">20026</option>
+                                    <option value="25">20027</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -175,6 +203,43 @@
                     </div>
                 </div>
             </div>
+
+            <!-- mobile view form  -->
+            <div class="border mobile-form">
+                <div class="form-hide">
+                    <h2> book the car</h2>
+
+
+
+                    <select class="form-select-2" aria-label="Default select example">
+                        <option selected>Select year</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+
+                    <select class="form-select-2" aria-label="Default select example">
+                        <option selected>Select  Make</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                    <select class="form-select-2" aria-label="Default select example">
+                        <option selected>Select  Make</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                   <input type="tel" name="" id="" placeholder="Phone Number">
+                   <button class="book-now">Book Now</button>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
     <!-- ========== End booking ========== -->
@@ -576,4 +641,5 @@
         });
     </script>
 </body>
+
 </html>
