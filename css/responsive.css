@@ -704,6 +704,11 @@
 }
 
 @media (max-width: 575.98px) {
+    .fa-chevron-down:before {
+        content: "\f078" !important;
+        margin-right: 14px !important;
+    }
+
     .navbar-brand img {
         width: 213px;
         height: 43px;
