@@ -258,7 +258,6 @@ header {
 
 #booking .mobile-form .book-now {
     background-color: var(--btn-bg);
-    max-width: 247.556px;
     width: 100%;
     height: 51.926px;
     border-radius: 7px;
