@@ -1275,4 +1275,10 @@
     .Car-Dealer {
         margin-top: -25px !important;
     }
+    #booking .bg {
+        display: none !important;
+    }
+    #booking .mobile-form {
+        display: block !important;
+    }
 }
