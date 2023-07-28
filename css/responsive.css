@@ -813,8 +813,7 @@
     }
 
     .car-sell .img-box {
-        min-height: 260px !important;
-        margin-top: 10px !important;
+        min-height: 375px !important;
     }
 
     .car-sell .right-text {
@@ -1275,10 +1274,19 @@
     .Car-Dealer {
         margin-top: -25px !important;
     }
+
     #booking .bg {
         display: none !important;
     }
+
     #booking .mobile-form {
         display: block !important;
+    }
+}
+
+
+@media (max-width: 320.98px) {
+    .car-sell .img-box {
+        min-height: 274px !important;
     }
 }
