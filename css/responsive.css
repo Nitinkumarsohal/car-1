@@ -1,3 +1,10 @@
+@media only screen and (min-width:1660px){
+.car-sell .img-box {
+    background-size: 87% !important;
+    margin-top: 90px !important;
+}	
+}
+
 @media (max-width: 1399.98px) {
     .nav-link {
         margin: 0px 25px !important;
@@ -1285,7 +1292,7 @@
 }
 
 
-@media (max-width: 320.98px) {
+@media (max-width: 390px) {
     .car-sell .img-box {
         min-height: 274px !important;
     }
